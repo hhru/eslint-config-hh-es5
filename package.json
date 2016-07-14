@@ -11,6 +11,10 @@
   "homepage": "https://github.com/hhru/eslint-config-hh-es5#readme",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-hh": "hhru/eslint-config-hh#HH-61077"
+    "eslint": "~2.13.1",
+    "eslint-config-hh": "hhru/eslint-config-hh",
+    "eslint-config-airbnb-base": "~3.0.1",
+    "eslint-plugin-dollar-sign": "0.0.5",
+    "eslint-plugin-import": "^1.10.2"
   }
 }
