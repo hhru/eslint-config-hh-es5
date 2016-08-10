@@ -7,8 +7,8 @@ module.exports = {
         "sourceType": "script"
     },
     "rules": {
-        // Используем 'use strict'
-        "strict": ["error", "function"],
+        // Используем 'use strict' в функциях и модулях
+        "strict": ["error", "safe"],
         // Запятую в последнем свойстве объекта не ставим
         // Из-за того, что поддерживаем IE8 - выводим ошибку
         "comma-dangle": ["error", "never"],
