@@ -32,6 +32,7 @@ module.exports = {
         // function(options) {
         //     options = options || {};
         // }
-        "no-param-reassign": ["warn"]
+        "no-param-reassign": ["warn"],
+        "new-cap": ["error", { "capIsNew": false }]
     }
 };
