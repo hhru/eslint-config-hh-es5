@@ -33,6 +33,19 @@ module.exports = {
         //     options = options || {};
         // }
         "no-param-reassign": ["warn"],
-        "new-cap": ["error", { "capIsNew": false }]
+        "new-cap": ["error", { "capIsNew": false }],
+        // ** вместо Math.pow пока не поддерживается нормально, убираем его из списка, переносим правила из airbnb
+        // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/best-practices.js
+        "no-restricted-properties": ['error', {
+          object: 'arguments',
+          property: 'callee',
+          message: 'arguments.callee is deprecated',
+        }, {
+          property: '__defineGetter__',
+          message: 'Please use Object.defineProperty instead.',
+        }, {
+          property: '__defineSetter__',
+          message: 'Please use Object.defineProperty instead.',
+        }]
     }
 };
