@@ -20,6 +20,7 @@ module.exports = {
         "no-var": 0,
         // В ES5 нет ...rest
         "prefer-rest-params": 0,
+        "prefer-spread": 0,
         // В ES5 нет строк шаблонов
         "prefer-template": 0,
         // В ES5 нет сокращенной форме объекта

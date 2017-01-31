@@ -20,9 +20,13 @@
 
 ## История изменений
 
+### 1.5.0
+
+* Отключаем `prefer-spread`, в es5 нет spread оператора.
+
 ### 1.4.0
 
-* Выставляем `new-cap.properties:false` для jQuery и Backbone с его $.Deferred() и new this.model();
+* Выставляем `new-cap.properties:false` для jQuery и Backbone с его $.Deferred() и new this.model().
 
 ### 1.3.0
 
