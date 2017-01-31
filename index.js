@@ -33,7 +33,12 @@ module.exports = {
         //     options = options || {};
         // }
         "no-param-reassign": ["warn"],
-        "new-cap": ["error", { "capIsNew": false }],
+        // capIsNew: false, для корректного вызова синглтонов и зависимостей.
+        // properties: false, для jQuery и Backbone с его $.Deferred() и new this.model();
+        "new-cap": ["error", {
+            "capIsNew": false,
+            "properties": false
+        }],
         // ** вместо Math.pow пока не поддерживается нормально, убираем его из списка, переносим правила из airbnb
         // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/best-practices.js
         "no-restricted-properties": ['error', {

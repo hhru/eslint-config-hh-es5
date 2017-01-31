@@ -20,6 +20,10 @@
 
 ## История изменений
 
+### 1.4.0
+
+* Выставляем `new-cap.properties:false` для jQuery и Backbone с его $.Deferred() и new this.model();
+
 ### 1.3.0
 
 * Отключаем `no-restricted-properties` касаемо Math.pow, так как оператор ** пока не поддерживается нормально.
