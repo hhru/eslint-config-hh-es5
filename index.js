@@ -6,6 +6,10 @@ module.exports = {
         // поэтому эта настройка нужна для того чтобы корректно отрабатывало правило `strict`
         "sourceType": "script"
     },
+    "env": {
+        "browser": true,
+        "amd": true
+    },
     "rules": {
         // Используем 'use strict'
         "strict": ["error", "function"],
