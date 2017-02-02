@@ -1,6 +1,8 @@
-# eslint конфиги HH.ru - ES5
+# eslint конфиги HH.ru - ES5 (DEPRECATED)
 
 Репозиторий, содержит файлы конфигурации для eslint.
+
+!!! - DEPRECATED, используйте [`eslint-config-hh`](https://github.com/hhru/eslint-config-hh), с `"extends": "hh/legacy"`
 
 ## Установка конфигов
 
