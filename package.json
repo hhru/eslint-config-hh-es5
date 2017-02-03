@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-hh-es5",
   "repository": "hhru/eslint-config-hh-es5",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "HH.ru eslint configuration for es5",
   "main": "index.js",
   "scripts": {},
@@ -11,6 +11,6 @@
   "homepage": "https://github.com/hhru/eslint-config-hh-es5#readme",
   "license": "MIT",
   "dependencies": {
-    "eslint-config-hh": "hhru/eslint-config-hh"
+    "eslint-config-hh": "~1.4.0"
   }
 }
